@@ -1,0 +1,86 @@
+    7  mkdir git
+    8  cp /c/users/A00958689/index.html /c/users/A00958689/desktop/git
+    9  cp /c/users/A00958689/index.html /c/users/A00958689/desktop/git/index1.html
+   10  cp /c/users/A00958689/index.html /c/users/A00958689/desktop/git/index2.html
+   11  cp /c/users/A00958689/index.html /c/users/A00958689/desktop/git/index3.html
+   12  cd git
+   18  cp /c/users/A00958689/desktop/style.css /c/users/A00958689/desktop/git
+   19  cp /c/users/A00958689/desktop/js.js /c/users/A00958689/desktop/git
+   21  cd git
+   23  git clone https://github.com/dpark59/TakeHomeExercise.git
+   29  git add js
+   30  git add img
+   31  git add css
+   32  git commit
+   33  git commit -m "made img js css directory"
+   34  git push origin master
+   35  git status
+   36  git mkdir hello
+   37  git add. js
+   48  git add js
+   49  git add img
+   50  git add css
+   51  git commit -m "added js img css"
+   52  git push master origin
+   53  git push origin master
+   54  git status
+   57  git status
+   67  git status
+   69  git status
+   82  cp style.css /c/users/A00958689/desktop/git/css
+   83  cp js.js /c/users/A00958689/desktop/git/js
+   84  cd git
+  102  mv js /git/takehomeexercise/js
+  108  git branch v0..01
+  109  git branch v0.01
+  110  git checkout v0.01
+  111  git add js 
+  112  git commit -m "add js to v0.01"
+  113  git push origin master
+  116  find /c/users/A00958689/desktop/git/*.html
+  117  find . -name /c/users/A00958689/desktop/git/*.html
+  152  mkdir git
+  153  cd git
+  154  git clone https://github.com/dpark59/Exam.git
+  155  cp -r /c/users/A00958689/documents/exam /c/users/A00958689/desktop/git/Exam
+  157  cp -r /c/users/A00958689/documents/exam/. /c/users/A00958689/desktop/git/Exam
+  159  cp -r /c/users/A00958689/documents/exam/css /c/users/A00958689/desktop/git/Exam
+  160  cp -r /c/users/A00958689/documents/exam/css /c/users/A00958689/desktop/git/Exam
+  164  rm -r git
+  165  mkdir git 
+  166  cd git
+  167  git clone https://github.com/dpark59/Exam.git
+  168  cp -r /c/users/A00958689/documents/exam/css /c/users/A00958689/desktop/git/Exam
+  169  cp -r /c/users/A00958689/documents/exam/js /c/users/A00958689/desktop/git/Exam
+  170  cp /c/users/A00958689/documents/exam/index.html /c/users/A00958689/desktop/git/Exam
+  171  cp /c/users/A00958689/documents/exam/js.js /c/users/A00958689/desktop/git/Exam
+  172  cp /c/users/A00958689/documents/exam/style.css /c/users/A00958689/desktop/git/Exam
+  176  git add .
+  177  git commit -m "added css and js directories and index.html"
+  178  git push origin master
+  189  cd /c/users/A00958689/desktop/git/exam
+  190  git branch v2.0
+  191  git checkout v2.0
+  192  git add .
+  193  git commit -m "new branch"
+  194  git push origin v2.0
+  195  git checkout master
+  197  git add index.html
+  198  git commit -m "edited index.html"
+  199  git push origin master
+  200  git checkout v2.0
+  201  git merge master
+  202  git push origin v2.0
+  204  git checkout master
+  205  git branch v3.0
+  206  git checkout v3.0
+  207  git push origin v3.0
+  208  git checkout master
+  210  git add index.html
+  211  git commit -m "edited head part"
+  212  git push origin master
+  213  git checkout v3.0
+  214  git merge master
+  215  git push origin v3.0
+  217  git checkout master
+  221  history | grep "git" > history.txt
